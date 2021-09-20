@@ -1,0 +1,303 @@
+section{
+    display: inline-block;
+    height: 100vh;
+    width: 1680px;
+    
+}
+p{
+    font-weight: bold;
+    font-size:16px;
+    color:white;
+}
+h3{
+    color: white;
+}
+body{
+    background-color: #262626;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+@keyframes float{
+    from{
+        transform: translateY(-50px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+/*Start of the home section*/
+
+
+/* Start of menu section*/
+
+
+#logo{
+    position:absolute;
+   
+    color: #EF0A0A;
+    font-weight: 1000;
+    top:-10px;
+    left:60px;
+}
+logo{
+    position:absolute;
+    display:grid;
+    grid-template-columns: 60px 60px 1000px;
+    top:10px;
+    left:10px;
+}
+logo1{
+    transform: scale(0.7);
+}
+btn{
+    position: absolute;
+   display: flex;
+   -ms-flex-align: center;
+   border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    left: 1480px;
+    background-color: #D65830;
+    color: white;
+}
+#down{
+    position:absolute;
+    left:30px;
+    top:-3px;
+}
+
+
+/*End of menu section*/
+
+
+title0{
+    position: absolute;
+    top:20vh;
+    left:52vh;
+    color: white;
+    font-size: 55px;
+    display: flex;
+    text-align: center;
+
+}
+span.color{
+    font-weight: 1000;
+     background: linear-gradient( #FFA800, #CF4040);
+     background-clip: text;  -webkit-background-clip: text;  -moz-background-clip: text;  -moz-text-fill-color: transparent;  -webkit-text-fill-color: transparent;
+}
+tryBtn{
+    display: inline-block;
+    background-color: #E36219;
+    color: white;
+    border-radius:15px;
+    position: absolute;
+    top:490px;
+    left: 730px;
+    width: 200px;
+    height: 70px;
+
+}
+h3.try{
+    position:absolute;
+    top: 5px;
+    left:50px;
+
+
+}
+/*End of the home section*/
+
+/*Start of features section*/
+
+h3.title1{
+    color: #F9AD1A;
+    font-weight: normal;
+}
+svg.blackphone{
+    position: absolute;
+    transform: scale(0.8) scaleY(0.5);
+    top:830px;
+    left:230px;
+    animation: float infinite 4s alternate ease-in-out;
+}
+check{
+    color:white
+}
+one1{
+    position:absolute;
+    top:1200px;
+    left:100px;
+    display: grid;
+    font-size: 20px;
+    grid-template-columns: 100px 300px;
+}
+two1{
+    position:absolute;
+    top:1500px;
+    left:100px;
+    display: grid;
+    font-size: 20px;
+    grid-template-columns: 100px 300px;
+}
+three1{
+    position:absolute;
+    top:1800px;
+    left:100px;
+    display: grid;
+    font-size: 20px;
+    grid-template-columns: 100px 300px;
+}
+second{
+    position: absolute;
+    top:0px;
+    left:1080px;
+  
+}
+
+/*End of features section*/
+
+/*Start of the style section*/
+
+h3.title2{
+    position:absolute;
+    top:2050px;
+    color:#F9AD1A;
+    font-weight: normal;
+}
+h3.style{
+    color: white;
+    position:absolute;
+    top:2150px;
+    font-size: 55px;
+}
+span.app{
+    background: linear-gradient( #6600FF, #CC5A5A);
+    background-clip: text;  -webkit-background-clip: text;  -moz-background-clip: text;  -moz-text-fill-color: transparent;  -webkit-text-fill-color: transparent;
+}
+span.style{
+    background: linear-gradient( #6600FF, #CC5A5A);
+     background-clip: text;  -webkit-background-clip: text;  -moz-background-clip: text;  -moz-text-fill-color: transparent;  -webkit-text-fill-color: transparent;
+}
+paragraphs{
+    line-height: 10px;
+    position:absolute;
+    top:100px;
+    left:3px;
+    display: inline-block;
+    width: 1000px;
+    height: 1000px;
+}
+blob{
+    position:absolute;
+    right: -70px;
+    top: 2100px;
+}
+
+/*End of the style section*/
+
+/*Start of the help section*/
+
+h3.help{
+    color:#F9AD1A;
+    font-weight: normal;
+    position:absolute;
+    right: 10px;
+   
+
+}
+h3.problem{
+    position:absolute;
+    left:650px;
+    top:2800px;
+    font-size: 50px;
+    
+}
+#speech{
+    position:absolute;
+    left:80px;
+    top:2900px;
+}
+paragraph1{
+    line-height: 10px;
+    position:absolute;
+    top:100px;
+    left:3px;
+    display: inline-block;
+    width: 1000px;
+    height:500px;
+}
+span.help{
+    font-weight: 1000;
+     background: linear-gradient( #FFA800, #CF4040);
+     background-clip: text;  -webkit-background-clip: text;  -moz-background-clip: text;  -moz-text-fill-color: transparent;  -webkit-text-fill-color: transparent;
+
+}
+
+/*End of the help section*/
+
+/*Start of the fast section*/
+h3.fast{
+    position:absolute;
+    color: white;
+    position:absolute;
+    top:3500px;
+    font-size: 55px;
+}
+span.fast{
+    background: linear-gradient( #6600FF, #CC5A5A);
+    background-clip: text;  -webkit-background-clip: text;  -moz-background-clip: text;  -moz-text-fill-color: transparent;  -webkit-text-fill-color: transparent;
+    
+}
+paragraph2{
+    line-height: 25px;
+    position:absolute;
+    top:100px;
+    left:3px;
+    display: inline-block;
+    width: 500px;
+    height:500px;
+}
+svg.speed{
+    position:absolute;
+    position:absolute;
+    right: 20px;
+    top: 3500px;
+}
+
+/*End of the fast section*/
+
+/*Start of the download section*/
+
+section.download{
+    position:absolute;
+    top:4200px;
+}
+span.download{
+    background: linear-gradient( #6600FF, #CC5A5A);
+    background-clip: text;  -webkit-background-clip: text;  -moz-background-clip: text;  -moz-text-fill-color: transparent;  -webkit-text-fill-color: transparent;
+}
+h3.download{
+    font-size: 50px;
+    position:absolute;
+    right: 300px;
+    top:-10px;
+}
+p.downloads{
+    color:#6600FF;
+    font-size: 40px;
+}
+#google{
+    position:absolute;
+    top:300px;
+    right: 330px;
+}
+
+/*End of the download section*/
+#wave{
+    position:absolute;
+   margin: 0px;
+   display:inline-block;
+   padding: 0px;
+   left:0pxs
+
+}
